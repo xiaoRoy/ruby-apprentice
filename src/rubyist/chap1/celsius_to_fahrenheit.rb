@@ -1,5 +1,6 @@
-celsius = 100.0
-fahrenheit = (celsius * 9 / 5) + 32
-puts "The result is "
-puts fahrenheit
-puts " ."
+print "Hello! Please enter a Celsius value: "
+celsius = gets.to_i
+fahrenheit = (celsius * 9.0 / 5.0) + 32.0
+print "The result is "
+print fahrenheit
+puts "."
